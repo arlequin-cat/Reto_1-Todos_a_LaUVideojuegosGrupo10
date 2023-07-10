@@ -11,13 +11,13 @@ public class coinController : MonoBehaviour
         Debug.Log("Moneda");
         gameObject.SetActive(false);
         //Destroy(gameObject);
-        if (SceneManager.GetActiveScene().name == "Nivel_1")
+        if (SceneManager.GetActiveScene().name == "Nivel_2")
         {
-            SceneManager.LoadScene("Nivel_2");
+            SceneManager.LoadScene("nivel_3");
         }
         else
         {
-            SceneManager.LoadScene("Nivel_1");
+            SceneManager.LoadScene("Nivel_2");
         }
     }
 }
